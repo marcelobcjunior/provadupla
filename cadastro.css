@@ -1,0 +1,95 @@
+fieldset {
+    padding: 1%;
+    background: white;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+  
+  
+legend 
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: white;
+    padding: 0.20%;
+    font-family: Arial, Helvetica, sans-serif; 
+    box-shadow:1px 2px 3px gray;
+}
+  
+  label,input,select {
+    display: block; box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+  
+  label {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+}
+  
+input, select {
+    width: 100%; border: 1px outset; padding: 10px;
+    color:red;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; 
+}
+  
+input:focus {
+    background: lightyellow; border: 1px solid black; outline: none;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; 
+}
+  
+.label-50 
+{
+    width: 50%; float: left;  
+    font-family: Arial, Helvetica, sans-serif;   
+    text-align: center;   
+}
+  
+.center
+{
+    text-align: center; padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
+}
+  
+button
+{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #eee;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center; 
+}
+  
+button:hover {background-color: #ddd;}
+button:active{ background-color: #666;}
+  
+.botao-enviar { background-color: white;}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    text-align: center; 
+}
+
+main {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    text-align: center; 
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}

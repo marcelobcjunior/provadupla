@@ -1,0 +1,68 @@
+* {margin: 0; padding: 0;}
+body {
+background: #eee; padding: 5%; font-family: "Trebuchet MS";
+}
+
+#corpo {
+    background: #FFF;
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+margin: 0 auto;
+}
+header {
+    background-color: #CCC;
+    padding: 2%;
+    border-bottom: 1px solid #999;
+    font-size: 25px; 
+}
+header h1 {
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    text-transform: uppercase;
+}
+main {
+    padding: 2%;
+}
+footer {
+    background: white;
+    text-align: center;
+    padding: 2%;
+    border-top: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 50%;
+    margin: 20% 0 20% 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    cursor: default;
+}
+table thead tr
+{
+    background: #000;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 2%;
+}
+table tbody td, table thead th {padding: 10px;}
+
+table tbody td { border-bottom: 1px solid black ; }
+
+table tbody tr:hover {
+    background-color:rgb(158, 129, 0); cursor: crosshair;
+}
+.tiadorafa  {background-image: url(./IMG/cassio1.webp);}
+
+
+
+
+
+
+
+
+
+
